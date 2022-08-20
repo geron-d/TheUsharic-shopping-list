@@ -26,6 +26,10 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
+  mvc:
+    hidden-method:
+      filter:
+        enabled: true
 
 logging:
   level:
